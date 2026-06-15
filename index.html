@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rania Marium Taaaa | Advanced C Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="loader" class="loader-container">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p class="loader-text">Initializing Environment...</p>
+        </div>
+    </div>
+
+    <div class="bg-particles" id="bg-particles"></div>
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#intro" class="nav-logo">RMT<span class="pulse">.c</span></a>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#intro" class="nav-link active"><i class="fas fa-home"></i> <span>Introduction</span></a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> <span>About Me</span></a></li>
+                <li><a href="#skills" class="nav-link"><i class="fas fa-laptop-code"></i> <span>Technical Skills</span></a></li>
+                <li><a href="#concepts" class="nav-link"><i class="fas fa-bolt"></i> <span>Core C Concepts</span></a></li>
+                <li><a href="#projects" class="nav-link"><i class="fas fa-folder-open"></i> <span>Projects</span></a></li>
+                <li><a href="#gallery" class="nav-link"><i class="fas fa-keyboard"></i> <span>Code Gallery</span></a></li>
+                <li><a href="#journey" class="nav-link"><i class="fas fa-chart-line"></i> <span>Learning Journey</span></a></li>
+                <li><a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> <span>Education</span></a></li>
+                <li><a href="#achievements" class="nav-link"><i class="fas fa-trophy"></i> <span>Achievements</span></a></li>
+                <li><a href="#resume" class="nav-link"><i class="fas fa-file-alt"></i> <span>Resume</span></a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <section id="intro" class="section intro-section scroll-reveal">
+            <div class="intro-grid">
+                <div class="intro-text-block">
+                    <span class="badge">Welcome to my Terminal</span>
+                    <h1 class="hero-name">Rania Marium Taaaa</h1>
+                    <h2 class="hero-title">Engineering Student | Advanced C Programming Enthusiast</h2>
+                    <p class="hero-desc">
+                        I am a first-year engineering student passionate about software development, problem-solving, and Advanced C Programming. I enjoy building efficient software solutions using file handling, pointers, dynamic memory allocation, graphics programming, and data structures. I continuously strive to strengthen my technical skills through projects, learning, and innovation.
+                    </p>
+                    <div class="intro-actions">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#resume" class="btn btn-secondary">Download Resume</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="intro-cards-grid">
+                    <div class="info-mini-card">
+                        <div class="icon-wrapper"><i class="fas fa-graduation-cap"></i></div>
+                        <h3>B.Tech Student</h3>
+                    </div>
+                    <div class="info-mini-card">
+                        <div class="icon-wrapper"><i class="fas fa-university"></i></div>
+                        <h3>Reva University</h3>
+                    </div>
+                    <div class="info-mini-card">
+                        <div class="icon-wrapper"><i class="fas fa-code"></i></div>
+                        <h3>Advanced C Programmer</h3>
+                    </div>
+                    <div class="info-mini-card">
+                        <div class="icon-wrapper"><i class="fas fa-rocket"></i></div>
+                        <h3>Project Developer</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section scroll-reveal">
+            <h2 class="section-title">👤 About Me</h2>
+            <div class="glass-card about-card">
+                <div class="about-content">
+                    <p>I am currently pursuing my Bachelor of Technology degree at Reva University. My interest in programming began with learning the fundamentals of C and gradually expanded into advanced concepts such as pointers, structures, file handling, memory management, and graphics programming.</p>
+                    <p>I enjoy solving logical problems, creating software applications, and continuously exploring new technologies. Through academic projects and self-learning, I aim to build a strong foundation for a successful career in software development.</p>
+                    
+                    <div class="about-pillars">
+                        <div class="pillar">
+                            <h4>Personal Interests</h4>
+                            <p>Logical puzzles, UI/UX designing, technical writing, open-source mapping.</p>
+                        </div>
+                        <div class="pillar">
+                            <h4>Technical Interests</h4>
+                            <p>Low-level optimization, memory safety, embedded C, algorithm design.</p>
+                        </div>
+                        <div class="pillar">
+                            <h4>Career Aspirations</h4>
+                            <p>Aiming to step into Systems Engineering and Core Architecture Development roles.</p>
+                        </div>
+                        <div class="pillar">
+                            <h4>Programming Journey</h4>
+                            <p>Evolved from basic scripting to handling raw architectural buffers, pointers, and heap spaces.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section scroll-reveal">
+            <h2 class="section-title">💻 Technical Skills</h2>
+            <div class="skills-container">
+                <div class="glass-card skill-block">
+                    <h3>Programming Skills</h3>
+                    <div class="skill-item"><span>C Programming</span><div class="progress-bar"><div class="progress" style="width: 95%"></div></div></div>
+                    <div class="skill-item"><span>Data Structures</span><div class="progress-bar"><div class="progress" style="width: 85%"></div></div></div>
+                    <div class="skill-item"><span>Algorithms</span><div class="progress-bar"><div class="progress" style="width: 80%"></div></div></div>
+                    <div class="skill-item"><span>File Handling</span><div class="progress-bar"><div class="progress" style="width: 90%"></div></div></div>
+                    <div class="skill-item"><span>Graphics Programming</span><div class="progress-bar"><div class="progress" style="width: 75%"></div></div></div>
+                </div>
+
+                <div class="glass-card skill-block">
+                    <h3>Advanced C Concepts</h3>
+                    <div class="skills-tags">
+                        <span class="tag-badge">👉 Pointers</span>
+                        <span class="tag-badge">🧠 Dynamic Memory Allocation</span>
+                        <span class="tag-badge">🏗 Structures</span>
+                        <span class="tag-badge">🔄 Unions</span>
+                        <span class="tag-badge">📋 Header Files</span>
+                        <span class="tag-badge">⚡ Preprocessor Directives</span>
+                        <span class="tag-badge">⌨️ Command Line Arguments</span>
+                    </div>
+                </div>
+
+                <div class="glass-card skill-block">
+                    <h3>Tools Used</h3>
+                    <div class="skills-tags">
+                        <span class="tag-badge tool"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="tag-badge tool"><i class="fab fa-github"></i> GitHub</span>
+                        <span class="tag-badge tool"><i class="fas fa-laptop-code"></i> VS Code</span>
+                        <span class="tag-badge tool"><i class="fas fa-cube"></i> Code::Blocks</span>
+                    </div>
+                </div>
+
+                <div class="glass-card skill-block">
+                    <h3>Soft Skills</h3>
+                    <div class="skills-tags">
+                        <span class="tag-badge soft">🤝 Teamwork</span>
+                        <span class="tag-badge soft">🗣 Communication</span>
+                        <span class="tag-badge soft">🧩 Problem Solving</span>
+                        <span class="tag-badge soft">👑 Leadership</span>
+                        <span class="tag-badge soft">🎯 Creativity</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="concepts" class="section scroll-reveal">
+            <h2 class="section-title">⚡ Core Advanced C Concepts</h2>
+            <div class="concepts-grid">
+                <div class="glass-card concept-card">
+                    <h3>Pointers</h3>
+                    <p><strong>Explanation:</strong> Variables storing memory addresses of other variables directly.</p>
+                    <p><strong>Applications:</strong> Array traversal, building linked layouts, dynamic architectures.</p>
+                    <p><strong>Importance:</strong> Enables direct, ultra-fast structural memory control systems.</p>
+                </div>
+                <div class="glass-card concept-card">
+                    <h3>Structures</h3>
+                    <p><strong>Explanation:</strong> User-defined structures aggregating disparate, multi-type variable clusters.</p>
+                    <p><strong>Applications:</strong> Creating complex object entities, database records, and node types.</p>
+                    <p><strong>Importance:</strong> Essential for building programmatic records and data structure layouts.</p>
+                </div>
+                <div class="glass-card concept-card">
+                    <h3>Unions</h3>
+                    <p><strong>Explanation:</strong> Special structures sharing a singular unified space for all internal members.</p>
+                    <p><strong>Applications:</strong> Packet design, hardware registers, variant types manipulation.</p>
+                    <p><strong>Importance:</strong> Drastically conserves system memory space overheads on shared instances.</p>
+                </div>
+                <div class="glass-card concept-card">
+                    <h3>Dynamic Memory Allocation</h3>
+                    <p><strong>Explanation:</strong> Allocation runtime spaces manually via malloc, calloc, realloc and free functions.</p>
+                    <p><strong>Applications:</strong> Resizable heaps, run-time buffer spaces, building dynamic nodes.</p>
+                    <p><strong>Importance:</strong> Prevents data-allocation overflows or static array dimension bounds restrictions.</p>
+                </div>
+                <div class="glass-card concept-card">
+                    <h3>File Handling</h3>
+                    <p><strong>Explanation:</strong> Storing system records permanently directly onto active storage channels using files.</p>
+                    <p><strong>Applications:</strong> CRUD local storage, user configuration state profiles, logger systems.</p>
+                    <p><strong>Importance:</strong> Ensures permanent data persistence beyond program lifecycle shutdowns.</p>
+                </div>
+                <div class="glass-card concept-card">
+                    <h3>Recursion</h3>
+                    <p><strong>Explanation:</strong> Architectural execution designs where functions continuously reference and invoke themselves.</p>
+                    <p><strong>Applications:</strong> Tree traversing operations, mathematical expressions parsing, sorting paths.</p>
+                    <p><strong>Importance:</strong> Simplifies code structures by replacing complex nested loop arrays.</p>
+                </div>
+                <div class="glass-card concept-card">
+                    <h3>Header Files</h3>
+                    <p><strong>Explanation:</strong> External code layouts housing system signatures, prototypes, and macro declarations.</p>
+                    <p><strong>Applications:</strong> Source separation partitions, layout modularization paradigms.</p>
+                    <p><strong>Importance:</strong> Boosts reusability across extensive multi-file configuration designs.</p>
+                </div>
+                <div class="glass-card concept-card">
+                    <h3>Preprocessor Directives</h3>
+                    <p><strong>Explanation:</strong> Commands parsed ahead of compiling stages (indicated with '#' prefixes).</p>
+                    <p><strong>Applications:</strong> Macro substitution, conditional code inclusion configurations.</p>
+                    <p><strong>Importance:</strong> Enhances compile-time portability across distinct platforms.</p>
+                </div>
+                <div class="glass-card concept-card">
+                    <h3>Graphics Programming</h3>
+                    <p><strong>Explanation:</strong> Generating visual interfaces by initializing explicit render view coordinates.</p>
+                    <p><strong>Applications:</strong> Game engines design, rendering functional canvas modules, plotting graphs.</p>
+                    <p><strong>Importance:</strong> Transitions terminal environments into rich graphical, interactive applications.</p>
+                </div>
+                <div class="glass-card concept-card">
+                    <h3>Command Line Arguments</h3>
+                    <p><strong>Explanation:</strong> Launch arguments passed directly into main parameters (argc/argv arrays).</p>
+                    <p><strong>Applications:</strong> Automating scripts, file processing configurations, setting system parameters.</p>
+                    <p><strong>Importance:</strong> Enables modular program control direct from system terminals.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section scroll-reveal">
+            <h2 class="section-title">📁 Technical Projects</h2>
+            <div class="projects-grid-layout">
+                
+                <div class="glass-card project-card">
+                    <div class="project-header">
+                        <div class="icon-container"><i class="fas fa-paint-brush"></i></div>
+                        <h3>2D Graphics Editor in C</h3>
+                    </div>
+                    <p class="project-desc">A graphics application developed using C that enables drawing and manipulating lines, circles, rectangles, polygons, and graphical objects.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check"></i> Interactive shape building mechanics</li>
+                        <li><i class="fas fa-check"></i> Advanced graphics programming layer</li>
+                        <li><i class="fas fa-check"></i> Low-latency responsive user canvas interaction</li>
+                        <li><i class="fas fa-check"></i> Dynamic real-time structural shape editing</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span>graphics.h</span><span>Math.h</span><span>Structures</span>
+                    </div>
+                    <div class="project-stats">
+                        <span><i class="fas fa-star"></i> 4.8/5 Rating</span>
+                        <span><i class="fas fa-code-branch"></i> Optimized Layer</span>
+                    </div>
+                    <button class="btn btn-secondary project-detail-btn">View Details</button>
+                </div>
+
+                <div class="glass-card project-card">
+                    <div class="project-header">
+                        <div class="icon-container"><i class="fas fa-user-graduate"></i></div>
+                        <h3>Student Record System</h3>
+                    </div>
+                    <p class="project-desc">A file-based system for managing student records using high-performance CRUD structures.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check"></i> Seamless Add records pipelines</li>
+                        <li><i class="fas fa-check"></i> Optimized binary search indexes</li>
+                        <li><i class="fas fa-check"></i> Real-time multi-field profile update arrays</li>
+                        <li><i class="fas fa-check"></i> Secure row block delete routines</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span>File I/O</span><span>Pointers</span><span>Sorting</span>
+                    </div>
+                    <div class="project-stats">
+                        <span><i class="fas fa-database"></i> Binary Files</span>
+                        <span><i class="fas fa-bolt"></i> O(log N) Search</span>
+                    </div>
+                    <button class="btn btn-secondary project-detail-btn">View Details</button>
+                </div>
+
+                <div class="glass-card project-card">
+                    <div class="project-header">
+                        <div class="icon-container"><i class="fas fa-book"></i></div>
+                        <h3>Library Management System</h3>
+                    </div>
+                    <p class="project-desc">A console-based application for managing books tracking and automated rental/issue records logs.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check"></i> Dynamic book catalog structuring</li>
+                        <li><i class="fas fa-check"></i> Instant title/author matching arrays</li>
+                        <li><i class="fas fa-check"></i> Fine calculations & issue duration tracking</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span>String.h</span><span>Allocators</span><span>Structures</span>
+                    </div>
+                    <div class="project-stats">
+                        <span><i class="fas fa-book-open"></i> Multi-book Store</span>
+                        <span><i class="fas fa-history"></i> Log Trackers</span>
+                    </div>
+                    <button class="btn btn-secondary project-detail-btn">View Details</button>
+                </div>
+
+                <div class="glass-card project-card">
+                    <div class="project-header">
+                        <div class="icon-container"><i class="fas fa-university"></i></div>
+                        <h3>Banking Management System</h3>
+                    </div>
+                    <p class="project-desc">A highly secure banking core system architecture simulation executing transactional customer computations.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check"></i> Account creation with safe key validation</li>
+                        <li><i class="fas fa-check"></i> Instant ledger updates on deposits</li>
+                        <li><i class="fas fa-check"></i> Underflow protected balance withdrawal blocks</li>
+                        <li><i class="fas fa-check"></i> Complete statement transactional logging</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span>Crypt.h</span><span>File Streams</span><span>Validation</span>
+                    </div>
+                    <div class="project-stats">
+                        <span><i class="fas fa-shield-alt"></i> Safe Bounds</span>
+                        <span><i class="fas fa-wallet"></i> Ledger Logs</span>
+                    </div>
+                    <button class="btn btn-secondary project-detail-btn">View Details</button>
+                </div>
+
+                <div class="glass-card project-card widespread">
+                    <div class="project-header">
+                        <div class="icon-container"><i class="fas fa-shield-heart"></i></div>
+                        <h3>Uplix – Alcohol Detection & SOS System</h3>
+                    </div>
+                    <p class="project-desc">An engineering innovation project focused on vehicular road safety through live embedded hardware alcohol detection modules and immediate automated emergency SOS alert systems.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check"></i> Smart real-time sensor polling algorithm thresholds</li>
+                        <li><i class="fas fa-check"></i> Immediate micro-controller interrupt SOS response</li>
+                        <li><i class="fas fa-check"></i> Hardware-level embedded architecture integration</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span>Embedded C</span><span>Interrupts</span><span>Hardware Interface</span>
+                    </div>
+                    <div class="project-stats">
+                        <span><i class="fas fa-ambulance"></i> Safety Focus</span>
+                        <span><i class="fas fa-microchip"></i> Live Processing</span>
+                    </div>
+                    <button class="btn btn-secondary project-detail-btn">View Details</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="gallery" class="section scroll-reveal">
+            <h2 class="section-title">⌨️ Code Gallery</h2>
+            <div class="gallery-wrapper">
+                
+                <div class="terminal-card">
+                    <div class="terminal-header">
+                        <div class="window-dots"><span></span><span></span><span></span></div>
+                        <span class="terminal-title">dynamic_allocation.c</span>
+                        <button class="copy-btn" onclick="copySnippet(this)"><i class="far fa-copy"></i> Copy</button>
+                    </div>
+                    <div class="code-container">
+                        <pre><code><span class="keyword">#include</span> <span class="string">&lt;stdio.h&gt;</span>
+<span class="keyword">#include</span> <span class="string">&lt;stdlib.h&gt;</span>
+
+<span class="type">int</span> <span class="function">main</span>() {
+    <span class="type">int</span> *arr, n = 5;
+    arr = (<span class="type">int</span>*)<span class="function">malloc</span>(n * <span class="keyword">sizeof</span>(<span class="type">int</span>));
+    
+    <span class="keyword">if</span>(arr == NULL) {
+        <span class="function">printf</span>(<span class="string">"Memory Allocation Failed!\n"</span>);
+        <span class="keyword">return</span> 1;
+    }
+    
+    <span class="keyword">for</span>(<span class="type">int</span> i=0; i&lt;n; i++) *(arr + i) = (i + 1) * 10;
+    <span class="function">free</span>(arr);
+    <span class="keyword">return</span> 0;
+}</code></pre>
+                    </div>
+                </div>
+
+                <div class="terminal-card">
+                    <div class="terminal-header">
+                        <div class="window-dots"><span></span><span></span><span></span></div>
+                        <span class="terminal-title">pointer_manipulation.c</span>
+                        <button class="copy-btn" onclick="copySnippet(this)"><i class="far fa-copy"></i> Copy</button>
+                    </div>
+                    <div class="code-container">
+                        <pre><code><span class="keyword">#include</span> <span class="string">&lt;stdio.h&gt;</span>
+
+<span class="type">void</span> <span class="function">swap</span>(<span class="type">int</span> *x, <span class="type">int</span> *y) {
+    <span class="type">int</span> temp = *x;
+    *x = *y;
+    *y = temp;
+}
+
+<span class="type">int</span> <span class="function">main</span>() {
+    <span class="type">int</span> a = 27, b = 55;
+    <span class="function">swap</span>(&amp;a, &amp;b);
+    <span class="function">printf</span>(<span class="string">"Swapped values: a=%d, b=%d\n"</span>, a, b);
+    <span class="keyword">return</span> 0;
+}</code></pre>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="journey" class="section scroll-reveal">
+            <h2 class="section-title">📈 Learning Journey</h2>
+            <div class="timeline">
+                <div class="timeline-container left">
+                    <div class="timeline-content glass-card">
+                        <h3>🚀 Started Learning Programming</h3>
+                        <p>Fascinated by core automation engines, initialized logic creation paradigms.</p>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="timeline-content glass-card">
+                        <h3>📘 Learned C Fundamentals</h3>
+                        <p>Mastered lexical setups, operators, decision pathways, and compilation variables.</p>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                    <div class="timeline-content glass-card">
+                        <h3>⚙️ Functions and Arrays</h3>
+                        <p>Structured modular logic matrices and multi-dimensional spatial layouts.</p>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="timeline-content glass-card">
+                        <h3>🧠 Mastered Pointers</h3>
+                        <p>Understood runtime addresses, dereferencing operations, and hardware offsets.</p>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                    <div class="timeline-content glass-card">
+                        <h3>📂 File Handling</h3>
+                        <p>Implemented binary state processing workflows for permanent structural caching.</p>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="timeline-content glass-card">
+                        <h3>🎨 Graphics Programming</h3>
+                        <p>Implemented structural shapes rendering workflows directly on frame rendering viewports.</p>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                    <div class="timeline-content glass-card">
+                        <h3>💻 Built Mini Projects</h3>
+                        <p>Assembled functional structural console platforms for data processing workflows.</p>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="timeline-content glass-card">
+                        <h3>🏆 Advanced Development Projects</h3>
+                        <p>Engineered comprehensive, embedded hardware solutions and robust multi-tier structural models.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section scroll-reveal">
+            <h2 class="section-title">🎓 Education</h2>
+            <div class="glass-card education-card">
+                <div class="edu-header">
+                    <h3>Bachelor of Technology (B.Tech)</h3>
+                    <span class="edu-badge">Current Student</span>
+                </div>
+                <p class="edu-field"><strong>Branch:</strong> CSE AIMLz (Artificial Intelligence & Machine Learning)</p>
+                <p class="edu-inst"><strong>Institution:</strong> Reva University</p>
+                <p class="edu-status"><strong>Status:</strong> First-Year Engineering Student</p>
+                
+                <div class="edu-interests">
+                    <h4>Areas of Interest:</h4>
+                    <ul>
+                        <li><i class="fas fa-terminal"></i> Software Architecture Development</li>
+                        <li><i class="fas fa-microchip"></i> Advanced C System Optimization</li>
+                        <li><i class="fas fa-brain"></i> Algorithmic Logical Problem Solving</li>
+                        <li><i class="fas fa-layer-group"></i> Computer Science Operating Architecture Fundamentals</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="section scroll-reveal">
+            <h2 class="section-title">🏆 Key Achievements</h2>
+            <div class="counters-grid">
+                <div class="counter-card glass-card">
+                    <div class="counter-icon"><i class="fas fa-project-diagram"></i></div>
+                    <span class="counter-number" data-target="5">0</span>
+                    <p class="counter-label">Academic Mini Projects</p>
+                </div>
+                <div class="counter-card glass-card">
+                    <div class="counter-icon"><i class="fas fa-code"></i></div>
+                    <span class="counter-number" data-target="250">0</span>
+                    <p class="counter-label">Programming Exercises Completed</p>
+                </div>
+                <div class="counter-card glass-card">
+                    <div class="counter-icon"><i class="fas fa-certificate"></i></div>
+                    <span class="counter-number" data-target="4">0</span>
+                    <p class="counter-label">Technical Workshops Attended</p>
+                </div>
+                <div class="counter-card glass-card">
+                    <div class="counter-icon"><i class="fas fa-flask"></i></div>
+                    <span class="counter-number" data-target="3">0</span>
+                    <p class="counter-label">Engineering Exploration Activities</p>
+                </div>
+                <div class="counter-card glass-card">
+                    <div class="counter-icon"><i class="fas fa-users"></i></div>
+                    <span class="counter-number" data-target="6">0</span>
+                    <p class="counter-label">Collaborative Team Projects</p>
+                </div>
+                <div class="counter-card glass-card">
+                    <div class="counter-icon"><i class="fas fa-book-reader"></i></div>
+                    <span class="counter-number" data-target="12">0</span>
+                    <p class="counter-label">Continuous Learning Modules</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="section scroll-reveal">
+            <h2 class="section-title">📄 Professional Resume</h2>
+            <div class="glass-card resume-card">
+                <div class="resume-icon-block"><i class="far fa-file-pdf"></i></div>
+                <div class="resume-info">
+                    <h3>Rania_Marium_T_Resume.pdf</h3>
+                    <p>Updated Portfolio Resume • Systems Programming Edition</p>
+                </div>
+                <div class="resume-actions">
+                    <a href="#" class="btn btn-primary" onclick="alert('Starting Resume Download Stub...'); return false;"><i class="fas fa-download"></i> Download</a>
+                    <a href="#" class="btn btn-secondary" onclick="alert('Opening Interactive Resume Frame Stub...'); return false;"><i class="fas fa-eye"></i> View Online</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section scroll-reveal">
+            <h2 class="section-title">📬 Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <div class="contact-info-card glass-card">
+                        <div class="circle-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:raniamariumt@gmail.com">raniamariumt@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card glass-card">
+                        <div class="circle-icon"><i class="fab fa-linkedin-in"></i></div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p><a href="#" target="_blank">Connect on LinkedIn</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card glass-card">
+                        <div class="circle-icon"><i class="fab fa-github"></i></div>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/rania027" target="_blank">github.com/rania027</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card glass-card">
+                        <div class="circle-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <h4>Phone Network</h4>
+                            <p><a href="tel:+918310502557">+91 8310502557</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card contact-form-wrapper">
+                    <form id="portfolio-contact-form">
+                        <div class="form-group">
+                            <label for="frm-name">Your Full Name</label>
+                            <input type="text" id="frm-name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="frm-email">Your Email Address</label>
+                            <input type="email" id="frm-email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="frm-subject">Subject Header</label>
+                            <input type="text" id="frm-subject" required placeholder="Project Opportunity">
+                        </div>
+                        <div class="form-group">
+                            <label for="frm-msg">Message Content</label>
+                            <textarea id="frm-msg" rows="5" required placeholder="Write your context here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <footer class="premium-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>Rania Marium T<span class="pulse">.c</span></h3>
+                <p>Building high-speed memory architectures and efficient software layers using foundational C programming paradigms.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Index</h4>
+                <ul>
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Technical Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h4>Connect Verticals</h4>
+                <div class="social-row">
+                    <a href="https://github.com/rania027" target="_blank" class="circle-icon sm"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank" class="circle-icon sm"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:raniamariumt@gmail.com" class="circle-icon sm"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Designed and Developed by <strong>Rania Marium T</strong>. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
